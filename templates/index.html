@@ -1,0 +1,177 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Home
+{% endblock title %}
+
+
+{% block body %}
+
+<div class="container-fluid my-10 px-0">
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/main1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>1</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/static/main2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5></h5>
+          <p>2</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/collection/190728/1600x400" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="background: #101010b0;border-radius: 20px 2px;line-height: 1.8;">Refresh page To Generate "New
+            Images" here</h5>
+          <p>3</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+
+
+<!--News Blocks Section-->
+<div class="container">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div style="text-align:center" class="about-section">
+    <h1> Top "Science & Tech" News of the week</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div style="background-color:#FE9E13" class="card shadow-sm">
+          <img src="/static/picture5.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body">
+            <p class="card-text" style="font-size: x-large;color:black">Amazon adds Pakistan to its sellers list...</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://www.dawn.com/news/1624883/" class="btn btn-dark">Read More..</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style="background-color:#FE9E13" class="card shadow-sm">
+          <img src="/static/picture6.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body">
+            <p class="card-text" style="font-size: x-large;color:black">Two software parks to be set up in Punjab...</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://pk.mashable.com/tech/9631/two-software-technology-parks-to-be-set-up-in-punjab/"
+                class="btn btn-dark">Read
+                More..</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style="background-color:#FE9E13" class="card shadow-sm">
+          <img src="/static/picture7.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body">
+            <p class="card-text" style="font-size: x-large;color:black">Apple's Worldwide developers conference to be
+              held...</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://www.apple.com/newsroom/2021/05/apples-worldwide-developers-conference-kicks-off-june-7//"
+                class="btn btn-dark">Read
+                More..</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div style="background-color:#FE9E13" class="card shadow-sm">
+          <img src="/static/picture8.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body">
+            <p class="card-text" style="font-size: x-large;color:black">Satellite spotted Mars Curiosity Rover climbing
+              a mountain
+              on Mars...</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://www.space.com/mars-rover-curiosity-on-mont-mercou-orbit-photo/" class="btn btn-dark">Read
+                More..</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style="background-color:#FE9E13" class="card shadow-sm">
+          <img src="/static/picture11.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body">
+            <p class="card-text" style="font-size: x-large;color:black">DODGE-COIN: A meme inspired cryptocurrency is
+              reaching it's
+              peek....</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://www.analyticsinsight.net/dogecoin-a-meme-inspired-cryptocurrency-is-reaching-its-peek//"
+                class="btn btn-dark">Read
+                More..</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style="background-color:#FE9E13" class="card shadow-sm">
+          <img src="/static/picture10.jpg" class="d-block w-100" alt="...">
+
+          <div class="card-body">
+            <p class="card-text" style="font-size: x-large;color:black">China's breakthrough in chips material could
+              push back the
+              end of Moore's Law...</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="https://www.scmp.com/tech/tech-war/article/3134078/us-china-tech-war-tsmc-helps-make-breakthrough-semiconductor/"
+                class="btn btn-dark">Read
+                More..</a>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <app>
+      <footer class="container-fluid bg-dark my-0 py-3 text-light">
+        <p class="mb-0 text-center">Copyright © 2020-2021 ICT Project</p>
+      </footer>
+    </app>
+    {% endblock body %}
