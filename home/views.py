@@ -19,6 +19,7 @@ def about(request):
 
 def contact(request):
     if request.user.is_anonymous:
+        messages.success(request, 'For contacting us you must login!')
         return redirect("/login")
     
     if request.method == "POST":
