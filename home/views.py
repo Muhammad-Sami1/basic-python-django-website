@@ -8,8 +8,6 @@ from django.contrib.auth.forms import UserCreationForm
 
 
 def index(request):
-    # if request.user.is_anonymous:
-    #     return redirect("/login")
     return render(request, "index.html")
 
 
