@@ -17,7 +17,7 @@ def about(request):
 
 def contact(request):
     if request.user.is_anonymous:
-        messages.success(request, 'For contacting us you must login!')
+        messages.warning(request, 'For contacting us you must login!')
         return redirect("/login")
     
     if request.method == "POST":
@@ -58,7 +58,7 @@ def registerPage(request):
             form.save()
             messages.success(request, 'Account created successfully! Now you have to login to access contact us page!')
         else:
-            messages.success(request, 'Account Not Created! Please enter the right credentials to create a new account! Your password must be of 8 characters and cannot be entirely numeric!')
+            messages.warning(request, 'Account Not Created! Please enter the right credentials to create a new account! Your password must be of 8 characters and cannot be entirely numeric!')
     context =  {"form":form}
     return render(request, "register.html", context)
     
