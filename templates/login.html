@@ -74,7 +74,7 @@ Login
 
         <form class="form-signin" method="post" action="/login">
             {% csrf_token %}
-            <img class="mb-4" src="https://drive.google.com/uc?id=1VmNWf0E35nMEAybU5BCAOJk8MalUBhDI" alt="" width="100" height="100">
+            <img class="mb-4" src="/static/picture.3.jpg" alt="" width="100" height="100">
             <h1 class="h3 mb-3 font-weight-normal">Please login </h1>
             <label for="inputEmail" class="sr-only">Username</label>
             <input type="text" id="inputEmail" name="username" class="form-control" placeholder="Username" required
@@ -90,12 +90,12 @@ Login
             <button class="btn btn-lg btn-primary btn-block" type="submit" name="Create User">Sign in</button>
             <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
         </form>
+        
     </body>
     <div class="text-center">Don't have an account? <a href="/signup">Create account here</a></div>
-    <br>
-    <br>
-    <br>
     </html>
 </div>
 
 {% endblock body %}
+
+
