@@ -1,0 +1,20 @@
+
+Step#1:
+I have created the requirements.txt  along with the source code so just run the following 
+command to get all the required files to run our website code. After openeing the source code 
+folder in editor like VS-Code run the following command in the terminal:
+
+pip install -r requirements.txt
+
+(The major thing in it is the framework we have used which is Django 3.2.3)
+ 
+
+Step#2
+Now enter the following command in the terminal:
+
+python manage.py runserver
+
+after entering this command a local server will be created and the link of it will be displayed
+in the terminal, So by pasting that link in the browser like Chrome output of source code will 
+be displayed.
+

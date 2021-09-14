@@ -17,7 +17,7 @@ def about(request):
 
 def contact(request):
     if request.user.is_anonymous:
-        messages.warning(request, 'For contacting me you must login!')
+        messages.warning(request, 'For contacting you must login!')
         return redirect("/login")
     
     if request.method == "POST":

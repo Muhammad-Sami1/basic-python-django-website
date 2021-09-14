@@ -1,0 +1,31 @@
+Functionalities of this website:
+
+Functionality # 1:
+A user can create an account and can also access it in the future.
+
+Functionality # 2:
+A user can send message to admin through contact us page of website
+which can only be accessed if the user has created an account and he is
+logged in. If a user dont have an account he will be redirected to login 
+page if he tries to access contact us page.
+
+
+Functionality # 3:
+This website has an admin portal where all the messages by users and all
+user accounts with their name are being stored and admin can delete anthing 
+from them. Admin portal can be accessed by the following link:
+
+http://127.0.0.1:8000/admin/
+username = user
+password = 123
+
+
+Functionality # 4:
+This website has a Dark Mode feature which can be used on any page just by clicking
+the red button.
+
+
+Functionality # 5:
+This website is responsive means it can adjust its size for any device it is being used
+on like mobile, tablet, or desktop without messing up anything.
+
